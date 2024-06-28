@@ -6,7 +6,7 @@ export default function OnboardingLayout({
   return (
     <section>
       {/* Include shared UI here e.g. a header or sidebar */}
-
+      <h1>Hello World</h1>
       {children}
     </section>
   );
