@@ -1,3 +1,10 @@
+import ProgressBar from "./components/progress-bar";
+
 export default function Page() {
-  return <h1>Hello, Onboarding page!</h1>;
+  return (
+    <div>
+      <ProgressBar />
+      <h1>Hello World</h1>
+    </div>
+  );
 }
