@@ -2,7 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Check from "../../../public/onboarding/Icon/CheckMark.svg";
 
-export default function ProgressBar() {
+interface ProgressBar {
+  currentProg: string;
+  percent: number;
+}
+
+const ProgressBar: React.FC<ProgressBar> = ({ currentProg, percent }) => {
   return (
     <div className="flex items-center ">
       <div className="flex flex-col items-center space-x-5 ">
@@ -52,4 +57,6 @@ export default function ProgressBar() {
       </div>
     </div>
   );
-}
+};
+
+export default ProgressBar;
