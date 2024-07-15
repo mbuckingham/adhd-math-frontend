@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.welcomePage {
+    background-image: url('../public/onboarding/background/monsterNums.png');
+    background-size: 90em 100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
