@@ -2,8 +2,8 @@ import React from "react";
 
 export default function SignUp() {
   return (
-    <div className="bg-white p-8 rounded-lg max-w-lg w-full mx-auto mt-10">
-      <h2 className="text-3xl font-bold mb-6 text-gray-700">Create Account</h2>
+    <div className="bg-white p-8 rounded-lg max-w-lg w-full mx-auto mt-10 font-AtkinsonHyperlegible">
+      <h2 className="text-4xl font-bold mb-6 text-gray-700">Create Account</h2>
       <form>
         <div className="mb-6">
           <label
@@ -73,10 +73,7 @@ export default function SignUp() {
             />
           </svg>
         </button>
-        <p
-          className="mt-8 text-sm text-gray-600 whitespace-nowrap tracking-tight"
-          style={{ fontSize: "13px" }}
-        >
+        <p className="mt-8 text-sm text-gray-600 whitespace-nowrap tracking-tight">
           Note: You can always go into <strong>Settings</strong> if you want to
           change your password.
         </p>
