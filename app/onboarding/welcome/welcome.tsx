@@ -1,6 +1,6 @@
 export default function Welcome() {
   return (
-    <div className= "flex  items-center flex-col h-screen">
+    <div className= "flex  items-center flex-col h-screen welcomePage">
     <h1 className="text-3xl font-bold mt-40 text-5xl">
       MonsterNums
     </h1>
