@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function SignUp() {
   return (
@@ -36,17 +37,17 @@ export default function SignUp() {
           />
         </div>
         <div className="flex items-center justify-between mb-8">
-          <div className="pl-2 w-1/2">
+          <div className="pl-2 w-1/2 tracking-wider">
             <p className="text-sm text-gray-600 mb-1 w-full">
               ✔ One lowercase character
             </p>
             <p className="text-sm text-gray-600 w-full">
-              ✔ One special character
+              ✔ One uppercase character
             </p>
           </div>
-          <div className="pr-2 w-1/2">
+          <div className="pr-2 w-1/2 tracking-wider">
             <p className="text-sm text-gray-600 mb-1 w-full">
-              ✔ One uppercase character
+              ✔ One special character
             </p>
             <p className="text-sm text-gray-600 w-full">
               ✔ 8 characters minimum
@@ -55,23 +56,14 @@ export default function SignUp() {
         </div>
         <button
           type="submit"
-          className="max-w-xs flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-md font-bold text-gray-800 bg-gray-400 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300"
+          className="max-w-xs flex justify-center py-2 border border-transparent rounded-md shadow-sm text-md font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transform hover:scale-90 transition-transform duration-300"
         >
-          Continue
-          <svg
-            className="ml-2 h-5 w-5"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
+          <Image
+            src="/onboarding/buttons/CTA Button.png"
+            alt="Continue"
+            width={150}
+            height={50}
+          />
         </button>
         <p className="mt-8 text-sm text-gray-600 whitespace-nowrap tracking-tight">
           Note: You can always go into <strong>Settings</strong> if you want to
