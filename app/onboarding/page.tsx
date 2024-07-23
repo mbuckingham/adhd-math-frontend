@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div>
       <Welcome />
-      <ProgressBar />
+      <ProgressBar currentProg={"Buddy"} percent={75} />
       <h1>Hello World</h1>
     </div>
   );
