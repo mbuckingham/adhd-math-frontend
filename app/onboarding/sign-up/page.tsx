@@ -1,3 +1,9 @@
+import ProgressBar from "../components/progress-bar";
+
 export default function Page() {
-  return <h1>Create Account</h1>;
+  return (
+    <>
+      <ProgressBar />
+    </>
+  );
 }
